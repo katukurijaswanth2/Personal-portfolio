@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    width:100%;
+    padding:0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem 2rem; */
+    background-color:rgba(232, 227, 227, 0.3);
+    /* border-radius: 12px; */
+}
+
+nav img {
+height: 50px;
+width: 200px;
+border-radius: 5px;
+  /* filter: contrast(120%) brightness(105%); */
+
+  /* backdrop-filter: blur(50%); */
+
+/* backdrop-filter: ; */
+/* padding: 0.5rem; */
+}
+nav{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    gap: 10rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap:1.5rem;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0212236d;
+    transition: all 0.2s linear;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+nav ul li a:hover,footer a:hover{
+    cursor: pointer;
+    background: linear-gradient(orangered,blue);
+    background-clip: text;
+    color: transparent;
+    transform: scale(1.1);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    gap:3rem;
+}
+
+.intro {
+    max-width: 500px;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+}
+
+.highlight {
+    color: #6f42c1;
+}
+
+.intro p {
+    margin: 1rem 0;
+}
+
+.cv-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #6f42c1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #5a32a2;
+}
+
+.profile-image img {
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+footer {display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    padding-bottom: 0%;
+}
+footer p{
+    align-items: center;
+}
+footer a{
+text-decoration: none;
+color:black;
+    transition: all 0.2s linear;
+}
+/* footer a:hover{
+    color:
+} */
